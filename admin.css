@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url(pictures/5583046.jpg);
+}
+.parent {
+  /* width: 80rem; */
+  max-width: 80rem;
+  height: 35rem;
+  background-color: white;
+  border-radius: 30px;
+  margin: 3rem auto;
+  margin-bottom: 0px;
+}
+.action-add-edit {
+  display: flex;
+}
+.add,
+.edit {
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 60px;
+  background-color: #f6f5f5;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.add:hover,
+.edit:hover {
+  background-color: #dad8d8;
+}
+span {
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 60px;
+  height: 1px;
+  background-color: black;
+  display: block;
+}
+
+.felx {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  flex-direction: column;
+  width: 28rem;
+  height: 18rem;
+  background-color: #e4e4e47e;
+  overflow: hidden;
+  border-radius: 0.4rem;
+  transition: 0.5s all ease-in-out;
+}
+.felx-edit {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 16rem;
+  /* margin: 0rem auto; */
+  flex-direction: column;
+  width: 50rem;
+  height: auto;
+  background-color: #e4e4e47e;
+  overflow: hidden;
+  border-radius: 0.4rem;
+  transition: 0.5s all ease-in-out;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.felx:hover {
+  background-color: #d5d5d57e;
+}
+select {
+  padding: 5px 100px;
+  border-radius: 5px;
+}
+.flex-input {
+  width: inherit;
+  height: inherit;
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  z-index: 10;
+}
+.felx .fa-solid {
+  font-size: 4rem;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.add-input {
+  margin: 50px 70px;
+}
+.add-input input {
+  display: block;
+  width: 30rem;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e4e4e47e;
+  font-size: 15px;
+  color: black;
+}
+.add-input label {
+  margin-top: 20px;
+}
+.add-input .submit {
+  display: block;
+  width: 10rem;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #470b79;
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.edit-input {
+  display: flex;
+}
+.edit-input .edit-page {
+  display: flex;
+  width: 10rem;
+  margin-top: 10px;
+  /* margin-left: 13rem; */
+  padding: 10px;
+  padding-left: 4rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #470b79;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.add-input .submit:hover {
+  background-color: #470b79;
+}
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.action-title {
+  margin-right: 70px;
+  margin-top: 20px;
+  box-shadow: 10px 10px 14px -3px rgba(0, 0, 0, 0.1);
+}
+.admin {
+  padding: 20px;
+  width: auto;
+  text-align: right;
+  margin-top: 10px;
+}
+.admin a {
+  background-color: #470b79;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.admin a:hover {
+  color: #e48f45;
+}
